@@ -32,7 +32,7 @@ public class SearchJava extends CustomJavaAction<String>
 	public String executeAction() throws Exception
 	{
 		// BEGIN USER CODE
-		return search(SearchString, SearchTypeParameter1.getCaption());
+		return search(SearchString.replaceAll(" ", "%20"), SearchTypeParameter1.getCaption());
 		// END USER CODE
 	}
 

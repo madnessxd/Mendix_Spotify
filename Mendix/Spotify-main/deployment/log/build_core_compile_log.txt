@@ -14,7 +14,7 @@ build:
       [bnd] Use Import/Export Package directive -split-package:=(merge-first|merge-last|error|first) to get rid of this warning
       [bnd] Package found in   [Jar:com.mendix.mxruntime, Jar:run]
       [bnd] Class path         [Jar:biz.aQute.bnd.bndlib, Jar:org.scala-lang.scala-library, Jar:com.mendix.datastorage-api, Jar:com.mendix.json, Jar:com.mendix.logging, Jar:com.mendix.m2ee-api, Jar:com.mendix.mxruntime, Jar:com.mendix.integration, Jar:org.osgi.compendium, Jar:com.mendix.webui, Jar:javax.servlet, Jar:axiom-api-1.2.12, Jar:commons-lang-2.5, Jar:commons-logging-1.1, Jar:guice-2.0, Jar:openid4java-0.9.8, Jar:run]
-      [bnd] # project (project.jar) 69 
+      [bnd] # project (project.jar) 111 
 
 BUILD SUCCESSFUL
 Total time: 1 second

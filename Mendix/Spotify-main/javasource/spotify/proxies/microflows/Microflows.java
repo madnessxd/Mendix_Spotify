@@ -14,11 +14,24 @@ import com.mendix.systemwideinterfaces.core.IContext;
 public class Microflows
 {
 	// These are the microflows for the Spotify module
-	public static void search(IContext context)
+	public static void openPage(IContext context)
 	{
 		try
 		{
 			Map<String, Object> params = new HashMap<String, Object>();
+			Core.execute(context, "Spotify.OpenPage", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
+	public static void search(IContext context, spotify.proxies.Search _searchObject)
+	{
+		try
+		{
+			Map<String, Object> params = new HashMap<String, Object>();
+			params.put("SearchObject", _searchObject == null ? null : _searchObject.getMendixObject());
 			Core.execute(context, "Spotify.Search", params);
 		}
 		catch (CoreException e)
