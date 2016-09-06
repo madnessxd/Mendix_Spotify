@@ -1,0 +1,10 @@
+Buildfile: C:\Users\Grim Reaper\Documents\Mendix\Spotify-main\deployment\build_core.xml
+
+deploy:
+    [unzip] Expanding: C:\Program Files\Mendix\6.8.0\modeler\deployment.mxz into C:\Users\Grim Reaper\Documents\Mendix\Spotify-main\deployment
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+

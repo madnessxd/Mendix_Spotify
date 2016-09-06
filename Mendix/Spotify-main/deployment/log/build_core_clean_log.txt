@@ -1,0 +1,9 @@
+Buildfile: C:\Users\Grim Reaper\Documents\Mendix\Spotify-main\deployment\build_core.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+
